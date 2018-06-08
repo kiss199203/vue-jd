@@ -37,7 +37,17 @@
 - password: 'huangche201314',
 - database： 'myigou'
 
-
+## 异常
+- ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost'错误的解决方案
+  1. 查看mysql安装版本号:
+	 `npm list mysql`
+	 -- mysql@2.15.0
+  2. 如果大于2.0.1,则先卸载
+  `npm uninstall mysql`
+  3. 降低版本,指定版本号重新安装
+  `npm install mysql@2.0.1`
+  
+  
 
 ## 安装
 
