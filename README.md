@@ -29,13 +29,13 @@
 7. 商品详情页
 8. 商品搜索
 
-##配置
-###数据库配置：
-配置文件位于：vue-jd\route\index.js,
-host: 'localhost',
-user: 'root',
-password: 'huangche201314',
-database： 'myigou'
+## 配置  
+### 数据库配置：
+配置文件位于：vue-jd\route\index.js,  
+- host: 'localhost',  
+- user: 'root',  
+- password: 'huangche201314',
+- database： 'myigou'
 
 
 
